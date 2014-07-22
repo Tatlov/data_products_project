@@ -9,15 +9,20 @@ shinyUI(fluidPage(
                              uiOutput('x_axis_selector'),
                              uiOutput('xlim_slider'),
                              uiOutput('y_axis_selector'),
-                             uiOutput('ylim_slider'),
-                             actionButton('submit',h3('Go'))
+                             uiOutput('ylim_slider')
                 ),
-                mainPanel(h3("Selection"),
+                mainPanel(h3("Summary of your current input:"),
+                          textOutput('year'),
+                          textOutput('sliderx'),
+                          textOutput('slidery'),
                           h3("Output"),
                           plotOutput('plot')
                 )
             ),
-            mainPanel("Help")
+            mainPanel(h2("Documentation"),
+                      div("This app allows you to explore information related to 
+                          fires in NSW."),
+                      div("Where does the data come from?"))
         )
     
 )
