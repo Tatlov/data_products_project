@@ -40,7 +40,8 @@ shinyUI(fluidPage(
                           and rescued from fire corresponding to individual fire stations 
                           was Fire & Rescue NSW, New South Wales, 
                           Annual Statistical Reports, Fire Brigades (NSW) 2003 to 2007.
-                          The data was downloaded on 2014-07-22 at 10:30am. The original source is at 
+                          The data was downloaded on 2014-07-22 at 10:30am. 
+                          The original data source and more documentation on the variables are at 
                           http://www.fire.nsw.gov.au/page.php?id=171. I used this ",
                           a("script", 
                             href = "https://github.com/Tatlov/data_products_project/blob/master/get_and_clean.R"),
