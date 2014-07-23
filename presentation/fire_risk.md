@@ -44,7 +44,7 @@ Coping example:
 [![coping forest](coping_forest.jpg)](https://www.flickr.com/photos/davidbrewster/4031028473/in/set-72157622631238132)
 <p style="font-size:12px">Source is <a href="https://www.flickr.com/photos/davidbrewster/4031028473/in/set-72157622631238132">David Brewster on flickr</a>.</p>
 
-Summary of Fire Risks with Code
+Summary of Fire Related Incidents
 ========================================================
 
 <small>

@@ -5,6 +5,8 @@ col_mask[3] <- "NULL"
 df <- read.csv("building_fires.csv",colClasses = col_mask)
 axis_choice <- names(df)[c(-2,-4,-10)]
 
+
+
 shinyServer(
     function(input,output){
         # which years should be displayed, input$year from checkboxGroupInput
